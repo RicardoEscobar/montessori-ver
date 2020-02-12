@@ -1,10 +1,15 @@
+/* colores */
+/*
+7f5e49 naranja
+58769a azul claro
+406389 azul oscuro
+*/
+
 /* navbar */
 
 .logo {
     max-width: 3rem;
 }
-
-
 
 /*
 Removes white gap between slides - chagnge to base color of slide images
