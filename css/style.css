@@ -1,11 +1,17 @@
+hr {
+  /* margin: 3rem auto; */
+  border: dotted #f37d33 6px;
+  border-bottom: none;
+  width: 60%;
+}
 /* colores */
 
 .bg-azul1 {
-  background-color: #58769a;
+  background-color: #5090dd;
 }
 
 .bg-azul2 {
-  background-color: #406389;
+  background-color: #117cf0;
 }
 
 .bg-naranja {
@@ -22,10 +28,7 @@
 
 .naranja {
   color: #7f5e49;
-}
-
-/*
-7f5e49 naranja f37d33
+}    <link rel="stylesheet" href="../css/pilar.css">
 58769a azul claro
 406389 azul oscuro
 */
