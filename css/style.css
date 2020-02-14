@@ -19,18 +19,20 @@ hr {
 }
 
 .azul1 {
-  color: #58769a;
+  color: #5090dd;
 }
 
 .azul2 {
-  color: #406389;
+  color: #117cf0;
 }
 
 .naranja {
-  color: #7f5e49;
-}    <link rel="stylesheet" href="../css/pilar.css">
-58769a azul claro
-406389 azul oscuro
+  color: #f37d33;
+}
+/*
+f37d33 naranja
+5090dd azul 1
+117cf0 azul 2
 */
 
 .contacto {
