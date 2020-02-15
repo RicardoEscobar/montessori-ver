@@ -2,7 +2,7 @@ hr {
   /* margin: 3rem auto; */
   border: dotted #f37d33 6px;
   border-bottom: none;
-  width: 4%;
+  width: 10%;
 }
 /* colores */
 
@@ -69,4 +69,9 @@ Removes white gap between slides - chagnge to base color of slide images
 .carousel-item a {
   display: block;
   width: 100%;
+}
+
+/* Ligas dentro de button */
+.nounderline {
+  text-decoration: none !important
 }
