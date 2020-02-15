@@ -1,11 +1,17 @@
+hr {
+  /* margin: 3rem auto; */
+  border: dotted #f37d33 6px;
+  border-bottom: none;
+  width: 4%;
+}
 /* colores */
 
 .bg-azul1 {
-  background-color: #58769a;
+  background-color: #5090dd;
 }
 
 .bg-azul2 {
-  background-color: #406389;
+  background-color: #117cf0;
 }
 
 .bg-naranja {
@@ -13,53 +19,54 @@
 }
 
 .azul1 {
-  color: #58769a;
+  color: #5090dd;
 }
 
 .azul2 {
-  color: #406389;
+  color: #117cf0;
 }
 
 .naranja {
-  color: #7f5e49;
+  color: #f37d33;
 }
-
 /*
-7f5e49 naranja f37d33
-58769a azul claro
-406389 azul oscuro
+f37d33 naranja
+5090dd azul 1
+117cf0 azul 2
 */
 
-.contacto{
-    padding: 3% 12%;
- }
+.contacto {
+  padding: 3% 12%;
+}
+
+.pilar {
+  padding: 0% 8%;
+}
 
 /* navbar */
 
 .logo {
-    max-width: 3rem;
+  max-width: 3rem;
 }
 
 /*
 Removes white gap between slides - chagnge to base color of slide images
 */
 .carousel {
-    background:#007aeb;
-  }
-  
-  /*
+  background: #007aeb;
+}
+
+/*
   Forces image to be 100% width and not max width of 100%
   */
-  .carousel-item .img-fluid {
-    width:100%;
-  }
-  
-  /* 
+.carousel-item .img-fluid {
+  width: 100%;
+}
+
+/* 
   anchors are inline so you need ot make them block to go full width
   */
-  .carousel-item a {
-    display: block;
-    width:100%;
-  }
-  
-  
+.carousel-item a {
+  display: block;
+  width: 100%;
+}
