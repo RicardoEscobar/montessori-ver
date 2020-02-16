@@ -9,7 +9,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/metodo.css">
 
     <title>Colegio Montessori de la Vera Cruz</title>
 </head>
@@ -43,17 +45,22 @@
     <main>
 
         <!-- CONTENIDO PRINCIPAL -->
-        <!-- <div class="container-fluid mx-auto bg-light">
-            <img src="../img/maria.jpg">
-        </div> -->
+ 
+        <div class="row" id="box-search">
+            <div class="thumbnail text-center">
+                <picture>
+                    <source srcset="../img/maria2000.jpg" media="(min-width: 1400px)" >
+                    <source srcset="../img/maria1400.jpg" media="(min-width: 769px)">
+                    <source srcset="../img/maria800.jpg" media="(min-width: 577px)">
+                    <img srcset="../img/maria600b.jpg" alt="responsive image" class="d-block img-fluid" style="filter: brightness(50%)">
+                </picture>
+                <div class="container-fluid caption text-center">
+                    <p class="frase naranja">“Cualquier ayuda innecesaria es un obstáculo para el desarrollo”.</p>
+                    <p class="maria azul2">Maria Montessori</p>
+                </div>
+            </div>
+        </div>
 
-        <picture>
-            <source srcset="../img/maria.jpg" media="(min-width: 1400px)">
-            <source srcset="../img/maria2.jpg" media="(min-width: 769px)">
-            <source srcset="../img/maria3.jpg" media="(min-width: 577px)">
-            <img srcset="../img/maria.jpg" alt="responsive image"
-              class="d-block img-fluid">
-          </picture>
 
         <div class="container contacto">
             <h1 class="naranja pb-2 pt-2 text-center">¿Qué es el método Montessori?</h1>
