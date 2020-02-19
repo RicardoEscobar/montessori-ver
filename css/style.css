@@ -97,3 +97,7 @@ Removes white gap between slides - chagnge to base color of slide images
 .nounderline {
   text-decoration: none !important
 }
+
+.brightness-70 {
+  filter: brightness(70%);
+}
