@@ -1,9 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Charm&display=swap');
+
+/* font-family: 'Charm', cursive; */
+
+.thumbnail {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+}
+
+.frase {
+  font-family: 'Charm', cursive;
+  font-size: 1.5rem;
+}
+
 hr {
   /* margin: 3rem auto; */
   border: dotted #f37d33 6px;
   border-bottom: none;
   width: 10%;
 }
+
 /* colores */
 
 .bg-azul1 {
@@ -29,6 +50,7 @@ hr {
 .naranja {
   color: #f37d33;
 }
+
 /*
 f37d33 naranja
 5090dd azul 1
