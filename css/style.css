@@ -19,7 +19,7 @@
 }
 
 hr {
-  /* margin: 3rem auto; */
+  margin: 3rem auto;
   border: dotted #f37d33 6px;
   border-bottom: none;
   width: 10%;
@@ -100,4 +100,20 @@ Removes white gap between slides - chagnge to base color of slide images
 
 .brightness-70 {
   filter: brightness(70%);
+}
+
+/*Video*/
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
