@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Charm&display=swap');
+
+/* font-family: 'Charm', cursive; */
+
+.thumbnail {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+}
+
+.frase {
+  font-family: 'Charm', cursive;
+  font-size: 1.5rem;
+}
+
+hr {
+  margin: 3rem auto;
+  border: dotted #f37d33 6px;
+  border-bottom: none;
+  width: 10%;
+}
+
+/* colores */
+
+.bg-azul1 {
+  background-color: #5090dd;
+}
+
+.bg-azul2 {
+  background-color: #117cf0;
+}
+
+.bg-naranja {
+  background-color: #f37d33;
+}
+
+.azul1 {
+  color: #5090dd;
+}
+
+.azul2 {
+  color: #117cf0;
+}
+
+.naranja {
+  color: #f37d33;
+}
+
+/*
+f37d33 naranja
+5090dd azul 1
+117cf0 azul 2
+*/
+
+.contacto {
+  padding: 3% 12%;
+}
+
+.pilar {
+  padding: 0% 8%;
+}
+
+/* navbar */
+
+.logo {
+  max-width: 3rem;
+}
+
+/*
+Removes white gap between slides - chagnge to base color of slide images
+*/
+.carousel {
+  background: #007aeb;
+}
+
+/*
+  Forces image to be 100% width and not max width of 100%
+  */
+.carousel-item .img-fluid {
+  width: 100%;
+}
+
+/* 
+  anchors are inline so you need ot make them block to go full width
+  */
+.carousel-item a {
+  display: block;
+  width: 100%;
+}
+
+/* Ligas dentro de button */
+.nounderline {
+  text-decoration: none !important
+}
+
+.brightness-70 {
+  filter: brightness(70%);
+}
+
+/*Video*/
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
