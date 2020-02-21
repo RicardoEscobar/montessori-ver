@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Charm&display=swap');
 
 /* font-family: 'Charm', cursive; */
+ol li {
+  margin-bottom: 2rem;
+}
 
 .thumbnail {
   position: relative;
