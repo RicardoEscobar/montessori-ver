@@ -125,3 +125,56 @@ Removes white gap between slides - chagnge to base color of slide images
   width: 100%;
   height: 100%;
 }
+
+.galeria p {
+  background-color:#f37d33;
+  color:white;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  margin: 0; 
+  text-align: center;
+  padding: 10px; 
+  font-size: 15px;
+  filter: opacity(85%);
+}
+
+a.categoria {
+  
+  display: inline-block;
+  box-shadow: 0 0px 10px rgba(0,0,0,.2);
+  border: 1px solid whitesmoke;
+  position: relative;  
+  transition: all 200ms linear;
+  background-size: cover;
+  background-position: center center;
+}
+
+.img-categoria{
+  height: 250px;
+  width: 100%;
+}
+
+a.categoria:hover {
+  box-shadow: 0 0px 10px 
+  #117cf0;
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  -ms-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.appwhatssapp{
+  position:fixed;
+  right: 10px;
+  bottom:80px;
+  width:60px;
+  z-index: 1000;
+}
+
+.appwhatssapp img{
+  width: 100%;
+  height: auto;
+}
