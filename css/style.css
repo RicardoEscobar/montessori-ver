@@ -166,7 +166,9 @@ a.categoria:hover {
   transition: all 200ms linear;
 }
 
-.appwhatssapp{
+/* apps flotantes whatsapp y facebook */
+
+.whatsapp {
   position:fixed;
   right: 10px;
   bottom:80px;
@@ -174,7 +176,7 @@ a.categoria:hover {
   z-index: 1000;
 }
 
-.appwhatssapp img{
+.whatsapp img{
   width: 100%;
   height: auto;
 }
