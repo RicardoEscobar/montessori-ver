@@ -181,6 +181,19 @@ a.categoria:hover {
   height: auto;
 }
 
+.facebook {
+  position:fixed;
+  left: 10px;
+  bottom:80px;
+  width:60px;
+  z-index: 1000;
+}
+
+.facebook img{
+  width: 80%;
+  height: auto;
+}
+
 /* margenes */
 
 .mt-5rem {
