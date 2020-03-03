@@ -29,9 +29,9 @@ function getBody() {
     let body = "";
 
     // %0D%0A es un retorno de carro
-    body = body + "Nombre: " + validationNombre.value + "%0D%0A";
-    body = body + "Email: " + validationEmail.value + "%0D%0A";
-    body = body + "Telefono: " + validationTelefono.value + "%0D%0A";
+    body = body + "Nombre: " + validationNombre.value + "\n";
+    body = body + "Email: " + validationEmail.value + "\n";
+    body = body + "Telefono: " + validationTelefono.value + "\n";
     body = body + "Comentario: " + validationComentario.value;
 
     return body;
