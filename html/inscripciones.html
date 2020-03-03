@@ -145,7 +145,7 @@
                                 <div class="col-md-6 mb-3">
                                     <label for="validationTelefono">Teléfono</label>
                                     <input type="tel" class="form-control is-valid" id="validationTelefono"
-                                        placeholder="Ej.229 931798542 (10 digitos)" required>
+                                        placeholder="Ej.229 931798542 (10 digitos)">
                                 </div>
                             </div>
                             <div class="form-row">
@@ -182,10 +182,10 @@
                             <div class="form-group">
                                 <label for="validationComentario">Tu comentario</label>
                                 <textarea class="form-control" id="validationComentario" rows="4"
-                                    placeholder="Sus comentarios" required></textarea>
+                                    placeholder="Sus comentarios"></textarea>
                             </div>
                             <p class="azul2">* Deberás esperar una confirmación vía correo</p>
-                            <button class="btn btn-primary mx-auto d-block" type="submit" value="send" id="enviar">Enviar</button>
+                            <button class="btn btn-primary mx-auto d-block" type="submit" value="send" onclick="creaLigaEmail()" id="enviar">Enviar</button>
                         </form>
                     </div>
                 </p>
