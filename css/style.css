@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Charm&display=swap');
+
 .thumbnail {
   position: relative;
 }
@@ -9,6 +10,7 @@
   left: 0;
   width: 100%;
 }
+
 /* font-family: 'Charm', cursive; */
 .li-referenciado {
   margin-bottom: 2rem;
@@ -69,10 +71,6 @@ f37d33 naranja
   padding: 3% 12%;
 }
 
-.pilar {
-  padding: 0% 8%;
-}
-
 /* navbar */
 
 .logo {
@@ -127,38 +125,37 @@ Removes white gap between slides - chagnge to base color of slide images
 }
 
 .galeria p {
-  background-color:#f37d33;
-  color:white;
+  background-color: #f37d33;
+  color: white;
   font-weight: bold;
   position: absolute;
   width: 100%;
   bottom: 0px;
-  margin: 0; 
+  margin: 0;
   text-align: center;
-  padding: 10px; 
+  padding: 10px;
   font-size: 15px;
   filter: opacity(85%);
 }
 
 a.categoria {
-  
+
   display: inline-block;
-  box-shadow: 0 0px 10px rgba(0,0,0,.2);
+  box-shadow: 0 0px 10px rgba(0, 0, 0, .2);
   border: 1px solid whitesmoke;
-  position: relative;  
+  position: relative;
   transition: all 200ms linear;
   background-size: cover;
   background-position: center center;
 }
 
-.img-categoria{
+.img-categoria {
   height: 250px;
   width: 100%;
 }
 
 a.categoria:hover {
-  box-shadow: 0 0px 10px 
-  #117cf0;
+  box-shadow: 0 0px 10px #117cf0;
   -webkit-transition: all 200ms linear;
   -moz-transition: all 200ms linear;
   -o-transition: all 200ms linear;
@@ -169,27 +166,27 @@ a.categoria:hover {
 /* apps flotantes whatsapp y facebook */
 
 .whatsapp {
-  position:fixed;
+  position: fixed;
   right: 10px;
-  bottom:80px;
-  width:60px;
+  bottom: 80px;
+  width: 60px;
   z-index: 1000;
 }
 
-.whatsapp img{
+.whatsapp img {
   width: 100%;
   height: auto;
 }
 
 .facebook {
-  position:fixed;
+  position: fixed;
   left: 10px;
-  bottom:80px;
-  width:60px;
+  bottom: 80px;
+  width: 60px;
   z-index: 1000;
 }
 
-.facebook img{
+.facebook img {
   width: 80%;
   height: auto;
 }
@@ -206,4 +203,42 @@ a.categoria:hover {
 
 .mt-4-5rem {
   margin-top: 4.5rem;
+}
+
+/* Avatars */
+
+.avatar {
+  max-width: 250px;
+  border-radius: 100%;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .avatar {
+    max-width: 225px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .avatar {
+    max-width: 210px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .avatar {
+    max-width: 180px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .avatar {
+    max-width: 150px;
+  }
 }
