@@ -218,7 +218,7 @@ a.categoria:hover {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .avatar {
-    max-width: 225px;
+    max-width: 2250px;
   }
 }
 
