@@ -34,7 +34,7 @@
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 
-.photo-grid {
+.foto-grid {
   display: grid;
   gap: 1rem;
 
@@ -44,6 +44,22 @@
 
 /* Sistema de Grid */
 
+a.divLink {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  /* Makes sure the link doesn't get underlined */
+  z-index: 10;
+  /* raises anchor tag above everything else in div */
+  background-color: white;
+  /*workaround to make clickable in IE */
+  opacity: 0;
+  /*workaround to make clickable in IE */
+  filter: alpha(opacity=0);
+  /*workaround to make clickable in IE */
+}
 
 
 .thumbnail {
