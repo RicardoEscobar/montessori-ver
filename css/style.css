@@ -111,6 +111,13 @@ hr {
   background-color: #f37d33;
 }
 
+.bg-comunicado {
+  background-image: url(../img/banner_coronavirus.png);
+  background-position-x: center;
+  background-size: cover;
+  height: 300px;
+}
+
 .azul1 {
   color: #5090dd;
 }
@@ -298,12 +305,20 @@ a.categoria:hover {
     grid-column: span 2 / auto;
   }
 
+  .bg-comunicado {
+    height: 480px;
+  }
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .avatar {
     max-width: 180px;
+  }
+
+  .bg-comunicado {
+    height: 477px;
   }
 }
 
